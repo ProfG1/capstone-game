@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5edfce7ajj1y"]
+
+[ext_resource type="PackedScene" uid="uid://dce8i80fohm7c" path="res://Scenes/Level.tscn" id="1_epx57"]
+[ext_resource type="PackedScene" uid="uid://c0uyesh6lqq0g" path="res://Scenes/Player.tscn" id="2_hofiq"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_epx57")]
+position = Vector2(446, 463)
+scale = Vector2(9.51714, 8.21742)
+
+[node name="Player" parent="." instance=ExtResource("2_hofiq")]
+position = Vector2(1955, 2242)
+scale = Vector2(4.60946, 3.58392)
+safe_margin = 0.5
